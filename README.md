@@ -6,7 +6,7 @@
 ### 入门题目：
 * [Leetcode 148. Sort List](https://github.com/zdong2080/Leetcode22July2023/blob/main/medium/Leetcode%20148.%20Sort%20List.md)
 * [Leetcode 56. Merge Intervals](https://github.com/zdong2080/Leetcode22July2023/blob/main/medium/Leetcode%2056.%20Merge%20Intervals.md)
-* Leetcode 27. Remove elements
+* [Leetcode 27. Remove elements](https://github.com/zdong2080/Leetcode22July2023/blob/main/easy/Leetcode%2027.%20Remove%20elements.md)
 ### 进阶题目：
 * Leetcode 179. Largest Number
 * Leetcode 75. Sort Colors
