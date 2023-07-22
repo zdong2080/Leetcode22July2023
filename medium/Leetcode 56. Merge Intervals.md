@@ -1,4 +1,4 @@
-# 题目56
+# Leetcode 56. Merge Intervals
 
 ## 题目描述
 <div class="_1l1MA" data-track-load="description_content"><p>Given an array&nbsp;of <code>intervals</code>&nbsp;where <code>intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]</code>, merge all overlapping intervals, and return <em>an array of the non-overlapping intervals that cover all the intervals in the input</em>.</p>
