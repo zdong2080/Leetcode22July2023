@@ -31,15 +31,17 @@
 ## 测试用例
 * 无效输入测试用例（输入数组为空；长度为n的数组中包含 0 到 n-1之外的数字）
 ```
-[[1,3],[2,6],[8,10],[15,18]]
-[[1,4],[4,5]]
+[3,2,2,3]
+3
+[0,1,2,2,3,0,4,2]
+2
 ```
 
 ## 代码
 ```c++
 class Solution {
 public:
-    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+    int removeElement(vector<int>& nums, int val) {
         
     }
 };
