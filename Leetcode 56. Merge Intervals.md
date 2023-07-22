@@ -1,7 +1,7 @@
 # 题目56
 
 ## 题目描述
-<div class="px-5 pt-4"><div class="flex"></div><div class="_1l1MA" data-track-load="description_content"><p>Given an array&nbsp;of <code>intervals</code>&nbsp;where <code>intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]</code>, merge all overlapping intervals, and return <em>an array of the non-overlapping intervals that cover all the intervals in the input</em>.</p>
+<div class="_1l1MA" data-track-load="description_content"><p>Given an array&nbsp;of <code>intervals</code>&nbsp;where <code>intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]</code>, merge all overlapping intervals, and return <em>an array of the non-overlapping intervals that cover all the intervals in the input</em>.</p>
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -26,26 +26,20 @@
 	<li><code>intervals[i].length == 2</code></li>
 	<li><code>0 &lt;= start<sub>i</sub> &lt;= end<sub>i</sub> &lt;= 10<sup>4</sup></code></li>
 </ul>
-</div></div>
+</div>
 
 ## 测试用例
 * 无效输入测试用例（输入数组为空；长度为n的数组中包含 0 到 n-1之外的数字）
+```
+[[1,3],[2,6],[8,10],[15,18]]
+[[1,4],[4,5]]
+```
 
 ## 代码
 ```c++
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
-    ListNode* sortList(ListNode* head) {
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
         
     }
 };
