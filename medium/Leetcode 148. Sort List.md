@@ -39,7 +39,7 @@
 
 ## 代码
 ## 解法1
-```c++
+```c++ 93% 99%
 /**
  * Definition for singly-linked list.
  * struct ListNode {
