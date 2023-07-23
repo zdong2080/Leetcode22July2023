@@ -36,11 +36,27 @@
 ```
 
 ## 代码
+## 解法一 72% 96%
 ```c++
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         
+        const int START=0, END=1;   
+        
+        vector< vector<int> > result;
+    
+        sort( intervals.begin(), intervals.end() );
+        
+        for( auto const &curInterval : intervals ){
+            if ( (result.size() == 0 ) || (result.back()[END] < curInterval[START] ) ){
+                result.push_back( curInterval );
+            }else{
+                result.back()[END] = max( result.back()[END], curInterval[END] );
+            }
+        }
+        
+        return result;
     }
 };
 ```
