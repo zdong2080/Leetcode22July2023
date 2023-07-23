@@ -38,8 +38,8 @@
 * 无效输入测试用例（输入数组为空；长度为n的数组中包含 0 到 n-1之外的数字）
 
 ## 代码
-## 解法1
-```c++ 93% 99%
+## 解法1 93% 99%
+```c++ 
 /**
  * Definition for singly-linked list.
  * struct ListNode {
